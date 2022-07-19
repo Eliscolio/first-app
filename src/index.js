@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import './index.css';
 import App from './App';
-import NewsFeed from './components/new-feed'
+import NewsFeed from './components/news-feed'
 
 
 ReactDOM.render(
- React.createElement(NewsFeed, {}, null),
- document.getElementById('root')
+//  React.createElement(NewsFeed, {}, null),
+//  document.getElementById('root')
+<Newsfeed />
 );
 
 // If you want to start measuring performance in your app, pass a function
